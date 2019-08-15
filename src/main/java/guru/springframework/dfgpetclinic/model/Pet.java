@@ -11,6 +11,7 @@ public class Pet {
 
     public PetType getPetType() {
         return petType;
+
     }
 
     public void setPetType(PetType petType) {
