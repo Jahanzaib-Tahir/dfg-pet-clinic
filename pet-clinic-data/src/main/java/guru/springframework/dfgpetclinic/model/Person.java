@@ -1,6 +1,6 @@
 package guru.springframework.dfgpetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity{
 
     private String Firstname;
     private String Lastname;
@@ -21,4 +21,9 @@ public class Person {
     public void setLastname(String lastname) {
         Lastname = lastname;
     }
+
+
+
+
+
 }
